@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>I Thought of That | For Christine Goodwin</title>
+  <style>
+    :root {
+      --bg1: #1a1020;
+      --bg2: #2c1733;
+      --card: rgba(255,255,255,0.10);
+      --border: rgba(255,255,255,0.18);
+      --text: #f8eef7;
+      --muted: #dbc8d8;
+      --accent: #ff9ecf;
+      --accent2: #ffd6ea;
+      --shadow: 0 18px 45px rgba(0,0,0,0.28);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top, rgba(255,158,207,0.18), transparent 30%),
+        linear-gradient(160deg, var(--bg1), var(--bg2));
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+    .wrap {
+      width: min(1100px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 32px 0 48px;
+    }
+    .hero, .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(12px);
+    }
+    .hero {
+      padding: 40px 28px;
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 5vw, 4rem);
+      line-height: 1.08;
+    }
+    .subtitle {
+      margin: 0;
+      font-size: 1.1rem;
+      color: var(--accent2);
+    }
+    .dedication {
+      margin-top: 18px;
+      font-size: 1.05rem;
+      color: var(--muted);
+      max-width: 760px;
+      margin-inline: auto;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 24px;
+    }
+    .card {
+      padding: 24px;
+    }
+    h2 {
+      margin-top: 0;
+      font-size: 1.5rem;
+    }
+    audio, video {
+      width: 100%;
+      border-radius: 16px;
+      margin-top: 8px;
+    }
+    .small {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-top: 10px;
+    }
+    .lyrics {
+      white-space: pre-wrap;
+      font-size: 1rem;
+      color: #fff7fc;
+    }
+    .pill {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.18);
+      margin: 6px 8px 0 0;
+      color: var(--accent2);
+      font-size: 0.92rem;
+    }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      padding-top: 24px;
+      font-size: 0.95rem;
+    }
+    @media (max-width: 860px) {
+      .grid { grid-template-columns: 1fr; }
+      .hero { padding: 32px 20px; }
+      .card { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <h1>I Thought of That</h1>
+      <p class="subtitle">A love song for Christine Goodwin</p>
+      <p class="dedication">
+        Written with love for my wife, <strong>Christine Goodwin</strong>. This song is about the small things that matter most —
+        showing up, loving fully, staying close through hard times, and building a life together one day at a time.
+      </p>
+      <div>
+        <span class="pill">Original Love Song</span>
+        <span class="pill">For Christine Goodwin</span>
+        <span class="pill">By Logan Garth Goodwin</span>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h2>Listen</h2>
+        <audio controls>
+          <source src="audio/I Thought of That.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+        <p class="small">Audio file: <code>audio/I Thought of That.mp3</code></p>
+
+        <h2 style="margin-top: 28px;">Watch</h2>
+        <video controls>
+          <source src="video/I Thought of That.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <p class="small">Video file: <code>video/I Thought of That.mp4</code></p>
+      </div>
+
+      <div class="card">
+        <h2>About</h2>
+        <p>
+          <strong>I Thought of That</strong> is a song about love done right. It is not about regret — it is about gratitude,
+          commitment, and the kind of love that lasts.
+        </p>
+        <p>
+          This page was made as a dedication to Christine Goodwin and as a simple GitHub Pages site that can be shared,
+          saved, and remembered.
+        </p>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top: 24px;">
+      <h2>Lyrics</h2>
+      <div class="lyrics">Verse 1
+I brought her flowers on ordinary evenings
+Wrote her little notes by hand
+Held her close when the world came down around her
+Helped her dream again
+
+Pre-Chorus
+And when she smiled
+It made every mile worthwhile
+Looking back on that
+
+Chorus
+I gave her love, and day by day
+I showed up in the smallest ways
+When she needed arms to hold her tight
+I was right there by her side
+Now she’s still here, and that’s a fact
+She gave me love, I gave it back
+We built forever out of what we had
+I thought of that
+
+Verse 2
+When she felt broken, I was there beside her
+Till the hurt was finally gone
+Learned her laughter, knew her every birthday
+And where her heart belonged
+
+Pre-Chorus
+Now years have passed
+And I still thank God it lasts
+There’s no doubt in that
+
+Chorus
+I gave her love, and day by day
+I showed up in the smallest ways
+When she needed arms to hold her tight
+I was right there by her side
+Now she’s still here, and that’s a fact
+She gave me love, I gave it back
+We built forever out of what we had
+I thought of that
+
+Bridge
+Oh, we built a life in the little things together
+Somehow those moments turned into forever
+Now I know
+Love can grow
+When you don’t hold back
+No, I never held back
+
+Final Chorus
+I gave her love, and day by day
+I showed up in the smallest ways
+When she needed arms to hold her tight
+I was right there by her side
+Now she’s still here, and that’s a fact
+She gave me love, I gave it back
+We found forever in the path we had
+I thought of that
+
+Outro
+So here’s the ending
+She never walked away from me
+We made our own path
+I gave her love, she gave hers back
+And we lived happily ever after that
+Yeah, we lived happily ever after that</div>
+    </section>
+
+    <footer>
+      <p>Written by Logan Garth Goodwin • Dedicated to Christine Goodwin</p>
+    </footer>
+  </div>
+</body>
+</html>
